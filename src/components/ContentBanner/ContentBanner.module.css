@@ -1,0 +1,81 @@
+.bannerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+
+    position: relative;
+    overflow: hidden;
+    border-bottom: 2px solid #000;
+}
+
+.bannerContainer .img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.bannerContainer h2 {
+    font-size: 40px;
+    color: #000;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 40px;
+}
+
+.bannerContainer p {
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    color: #000;
+}
+
+.bannerContainer button {
+    z-index: 2;
+    background-color: #FFF;
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 125ms linear;
+}
+.bannerContainer a button {
+    color: #000;
+    text-decoration: none;
+}
+.bannerContainer a button:hover {
+    color: rgb(169, 228, 243);
+}
+
+.locked {
+    user-select: none;
+    -webkit-user-drag: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.653);
+}
+
+.locked img {
+    -webkit-user-drag: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.locked h2 {
+    margin-top: 60px;
+    color: #FFF;
+}

@@ -1,0 +1,25 @@
+.footer {
+    position: relative;
+    height: 150px;
+    background-color: #FFF;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bottom: 0;
+    margin-top: 20px;
+}
+
+.mid {
+    text-align: center;
+}
+
+.socialmedia img {
+    width: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.socialmedia img:nth-child(3) {
+    margin-right: 0px;
+}

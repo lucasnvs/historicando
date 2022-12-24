@@ -1,0 +1,47 @@
+.cardBody {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.49);
+    transition: 50ms linear;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.cardBody div {
+    position: relative;
+}
+.cardBody div:nth-child(2) {
+    padding: 10px;
+}
+
+.cardBody:hover {
+    transform: translateY(-15px);
+}
+
+.cardBody div:nth-child(1) {
+    background-size: cover;
+    position: relative;
+    min-height: 50%;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.cardBody h3 {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+.cardBody h6 {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.cardBody p {
+    max-width: 100%;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    display: -webkit-box;
+    -webkit-line-clamp: 4; 
+    -webkit-box-orient: vertical; 
+}
+

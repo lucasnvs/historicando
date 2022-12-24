@@ -1,0 +1,44 @@
+.conteudoPost {
+    padding: 20px 5%;
+}
+
+.conteudoPost h2 {
+    font-size: 30px;
+    margin-bottom: 14px;
+}
+
+.conteudoPost .reference {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.conteudoPost .reference span {
+    color: rgb(9, 163, 225);
+    font-weight: 600;
+}
+
+.conteudoPost .text {
+    font-size: 24px;
+    max-width: 64%;
+    width: fit-content;
+    padding: 25px 0px;
+    border-bottom: 1px solid rgb(9, 163, 225);
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.conteudoPost .text p {
+    margin-bottom: 20px;
+}
+
+.conteudoPost .banner {
+    width: 56%;
+    border-radius: 8px;
+}
+
+@media (max-width: 850px ) {
+    .conteudoPost .banner {
+        width: 100%;
+    }
+    .conteudoPost .text {
+        max-width: 100%;
+    }
+}

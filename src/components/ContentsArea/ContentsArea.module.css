@@ -1,0 +1,12 @@
+.contentsArea {
+    text-align: center;
+}
+
+.contentsArea h2 {
+    margin-top: 20px;
+    font-size: 35px
+}
+.contentsArea p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}

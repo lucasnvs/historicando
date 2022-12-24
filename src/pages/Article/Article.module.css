@@ -1,0 +1,13 @@
+.conteudoArticle {
+    padding: 20px 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudoArticle h1,
+.conteudoArticle h2 {
+    width: fit-content;
+    margin-bottom: 10px;
+}

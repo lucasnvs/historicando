@@ -1,0 +1,32 @@
+.welcomeContainer {
+    min-height: 600px;
+    position: relative;
+    padding: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(63, 207, 255, 0.457);
+}
+
+.welcomeContainer div h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.welcomeContainer div p {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.welcomeContainer div p:nth-child(4) {
+    margin-top: 50px;
+}
+
+.welcomeContainer img {
+    height: 460px;
+}
+
+@media (max-width: 850px) {
+    .welcomeContainer img {
+        display: none;
+    }
+}
