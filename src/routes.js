@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import LandingPage from './pages/LandingPage';
 import Post from './pages/Post';
 import Article from './pages/Article';
-
+// alou
 function App() {
   return (
     <BrowserRouter>
