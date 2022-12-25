@@ -18,6 +18,7 @@ const ContentBanner = (props) => {
                 <Link to={props.linkTo}>
                     <button>Acessar Conteúdo</button>
                 </Link>
+                
         </div>
     )
 }

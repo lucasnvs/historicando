@@ -25,6 +25,13 @@
     margin-bottom: 20px;
     text-align: justify;
 }
+.conteudoPost .text ul {
+    margin-left: 40px;
+}
+.conteudoPost .text ul li {
+    list-style: disc;
+}
+
 .conteudoPost .text p {
     margin-bottom: 20px;
 }

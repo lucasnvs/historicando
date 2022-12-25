@@ -1,5 +1,6 @@
 .welcomeContainer {
-    min-height: 600px;
+    min-height: 460px;
+    height: calc(100vh - 200px);
     position: relative;
     padding: 8%;
     display: flex;

@@ -11,30 +11,11 @@ const Article = () => {
                 {posts.map( post => (
                     <CardPost
                     key={post.id}
-                    id={post.id}
+                    props={post}
                     sizePX={420}
-                    border={2} 
-                    title={post.title}
-                    date={post.date} 
-                    text={post.text}
+                    border={2}
                 />
                 ))}
-                <CardPost
-                    sizePX={420}
-                    border={2} 
-                    title='Convenção Nacional'
-                    date='1793 - 1795' 
-                    text='Logo após a morte do principe de persia, essa epoca 
-                    que marcou tanto se inicia um dos piores períodos da história francesa'
-                />
-            <CardPost
-                sizePX={420}
-                border={2} 
-                title='Diretório'
-                date='1795 - 1799' 
-                text='Logo após a morte do principe de persia, essa epoca 
-                que marcou tanto se inicia um dos piores períodos da história francesa'
-            />
             </div>
 
         </div>

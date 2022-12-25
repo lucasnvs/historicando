@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import LandingPage from './pages/LandingPage';
 import Post from './pages/Post';
 import Article from './pages/Article';
-// alou
+
 function App() {
   return (
     <BrowserRouter>
@@ -15,7 +15,7 @@ function App() {
         <Route path='/article' element={<Article />}>
         </Route>
         
-        <Route path='post/:id' element={<Post />} />
+        <Route path='/post/:id' element={<Post />} />
         <Route path="*" element={<div>Página não encontrada</div>} />
       </Routes>
 

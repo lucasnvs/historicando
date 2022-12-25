@@ -2,6 +2,7 @@ import styles from './Post.module.css';
 import CardPost from '../../components/CardPost';
 import { useParams } from 'react-router';
 import posts from '../../json/revolucao-francesa/posts.json'
+import { ReactMarkdown } from 'react-markdown/lib/react-markdown';
 
 const Post = () => {
     const params = useParams();
@@ -9,8 +10,7 @@ const Post = () => {
     const post = posts.find( post => {
         return post.id === Number(params.id)
     })
-
-    console.log(post)
+    console.log(params)
     return (
             <section className={styles.conteudoPost}>
                 <h2>
@@ -26,24 +26,19 @@ const Post = () => {
                 />
                 
             <div className={styles.text}>
+                <ReactMarkdown>
                     {post.text}
+                </ReactMarkdown>
             </div>
             
 
                 <h2>Mais conteúdos sobre Revolução Francesa</h2>
                 <div style={{ width: 'fit-content', display: 'flex', flexWrap: 'wrap', gap: '15px', justifyContent: 'center'}}>
-                    <CardPost 
-                    title='Assembleia Nacional'
-                    date='1789 - 1793' 
-                    text='Logo após a morte do principe de persia, essa epoca 
-                    que marcou tanto se inicia um dos piores períodos da história francesa'
-                    />
+                {posts.filter( post => post.id !== Number(params.id)).map( post => (
                     <CardPost
-                    title='Diretório'
-                    date='1795 - 1799' 
-                    text='Logo após a morte do principe de persia, essa epoca 
-                    que marcou tanto se inicia um dos piores períodos da história francesa'
-                    />
+                    key={post.id}
+                    props={post}
+                />))}
                 </div>
             
             </section>

@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom';
 import styles from './CardPost.module.css';
 
-const CardPost = (props) => {
+const CardPost = ({props, sizePX, border}) => {
 
     return (
         <Link to={`/post/${props.id}`}>
-            <div className={styles.cardBody} style={{ borderRadius: props.border, width: props.sizePX, height: props.sizePX}}>
-                <div style={{ backgroundImage: `url('/assets/posts/${props.id}/main.jpg')`, borderTopLeftRadius: props.border, borderTopRightRadius: props.border, borderBottomRightRadius: 0, borderBottomLeftRadius: 0}}>
+            <div className={styles.cardBody} style={{ borderRadius: border, width: sizePX, height: sizePX}}>
+                <div style={{ backgroundImage: `url('/assets/posts/${props.id}/main.jpg')`, borderTopLeftRadius: border, borderTopRightRadius: border, borderBottomRightRadius: 0, borderBottomLeftRadius: 0}}>
                 </div>
                 <div>
                     <h3>{props.title}</h3>
