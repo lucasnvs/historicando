@@ -1,0 +1,23 @@
+.PeopleCard {
+    display: flex;
+    height: 230px;
+    max-width: 550px;
+    gap: 16px;
+    padding: 20px;
+    box-shadow: 4px 5px 10px 1px rgba(0, 0, 0, 0.381);
+    border-left: 10px solid rgba(88, 236, 88, 0.711);
+}
+
+.PeopleCard h3 {
+    font-size: 23px;
+}
+.PeopleCard h4 {
+    font-weight: 600;
+    font-size: 19px;
+    color: rgba(123, 121, 121, 0.689);
+}
+
+.PeopleCard img {
+    border-radius: 6px;
+    height: 100%;
+}

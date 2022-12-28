@@ -1,6 +1,6 @@
 import styles from './Article.module.css';
 import CardPost from '../../components/CardPost';
-import posts from '../../json/revolucao-francesa/posts.json';
+import posts from '../../json/posts.json';
 
 const Article = () => {
     return (     

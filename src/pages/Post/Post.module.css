@@ -1,5 +1,5 @@
 .conteudoPost {
-    padding: 20px 5%;
+    padding: 30px 8%;
 }
 
 .conteudoPost h2 {
@@ -17,7 +17,7 @@
 }
 
 .conteudoPost .text {
-    font-size: 24px;
+    font-size: 22px;
     max-width: 64%;
     width: fit-content;
     padding: 25px 0px;
@@ -33,9 +33,11 @@
 }
 
 .conteudoPost .text p {
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
-
+.conteudoPost .text p em {
+    text-decoration: underline;
+}
 .conteudoPost .banner {
     width: 56%;
     border-radius: 8px;

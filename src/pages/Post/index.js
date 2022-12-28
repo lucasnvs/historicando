@@ -1,8 +1,9 @@
 import styles from './Post.module.css';
 import CardPost from '../../components/CardPost';
 import { useParams } from 'react-router';
-import posts from '../../json/revolucao-francesa/posts.json'
+import posts from '../../json/posts.json'
 import { ReactMarkdown } from 'react-markdown/lib/react-markdown';
+import NotFound from '../NotFound';
 
 const Post = () => {
     const params = useParams();
@@ -10,7 +11,10 @@ const Post = () => {
     const post = posts.find( post => {
         return post.id === Number(params.id)
     })
-    console.log(params)
+
+    if(!post) {
+        return <NotFound />;
+    }
     return (
             <section className={styles.conteudoPost}>
                 <h2>

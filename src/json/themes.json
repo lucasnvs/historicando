@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "theme_title": "Revolução Francesa",
+        "subtitle": "Período Histórico marcado por grandes revoltas e mudança política na organização francesa",
+        "image_name": "revolucao-francesa.png",
+        "locked": false
+    },
+    {
+        "id": 2,
+        "theme_title": "Revolução Industrial",
+        "subtitle": "Período Histórico marcado por grandes revoltas e mudança política na organização francesa",
+        "image_name": "revolucao-industrial.jpg",
+        "locked": true
+    },
+    {
+        "id": 3,
+        "theme_title": "Segunda Guerra Mundial",
+        "subtitle": "Período Histórico marcado por grandes revoltas e mudança política na organização francesa",
+        "image_name": "segunda-guerra-mundial.png",
+        "locked": true
+    }
+]
