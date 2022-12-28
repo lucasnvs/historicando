@@ -15,7 +15,9 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 > ## `Para baixar as dependências necessárias`
->
+>```
+>> npm install react
+>```
 >> npm install react
 >> npm install react-router-dom
 >> npm install react-markdown
