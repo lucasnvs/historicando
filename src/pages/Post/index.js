@@ -5,47 +5,56 @@ import posts from '../../json/posts.json'
 import { ReactMarkdown } from 'react-markdown/lib/react-markdown';
 import NotFound from '../NotFound';
 
+import gabriel from '../../imgs/gabriel-umann.jpeg'
+
+const authors = [gabriel, ''];
+
 const Post = () => {
     const params = useParams();
 
-    const post = posts.find( post => {
+    const post = posts.find(post => {
         return post.id === Number(params.id)
     })
 
-    if(!post) {
+    if (!post) {
         return <NotFound />;
     }
     return (
-            <section className={styles.conteudoPost}>
+        <>
+            <div className={styles.bannerPrincipal}>
                 <h2>
                     {post.title}
                 </h2>
-                <p className={styles.reference}>
-                    <span>{post.theme}</span> | Autor: Gabriel Umann
-                </p>
-                <img 
-                    className={styles.banner} 
-                    src={`/assets/posts/${post.id}/main.jpg`} 
-                    alt='Imagem sobre o tema Convenção Nacional' 
+                <p>{post.date}</p>
+                <span>{post.theme}</span>
+
+                <div className={styles.author}>
+                    <img src={authors[post.author.image]} alt={`Foto do autor do texto ${post.author.name}`} />
+                    <p>{post.author.name}</p>
+                </div>
+                <img
+                    className={styles.banner}
+                    src={`/assets/posts/${post.id}/main.jpg`}
+                    alt='Imagem sobre o tema Convenção Nacional'
                 />
-                
-            <div className={styles.text}>
-                <ReactMarkdown>
-                    {post.text}
-                </ReactMarkdown>
             </div>
-            
+            <section className={styles.conteudoPost}>
+                <div className={styles.text}>
+                    <ReactMarkdown>
+                        {post.text}
+                    </ReactMarkdown>
+                </div>
 
                 <h2>Mais conteúdos sobre Revolução Francesa</h2>
-                <div style={{ width: 'fit-content', display: 'flex', flexWrap: 'wrap', gap: '15px', justifyContent: 'center'}}>
-                {posts.filter( post => post.id !== Number(params.id)).map( post => (
-                    <CardPost
-                    key={post.id}
-                    props={post}
-                />))}
+                <div style={{ width: 'fit-content', display: 'flex', flexWrap: 'wrap', gap: '15px', justifyContent: 'center' }}>
+                    {posts.filter(post => post.id !== Number(params.id)).map(post => (
+                        <CardPost
+                            key={post.id}
+                            props={post}
+                        />))}
                 </div>
-            
-            </section>
+            </section>    
+        </>
     )
 }
 

@@ -1,6 +1,6 @@
 import PeopleCard from '../../components/PeopleCard';
 import styles from './About.module.css';
-import gabriel from './gabriel-umann.jpeg';
+import gabriel from '../../imgs/gabriel-umann.jpeg';
 
 const About = () => {
     return (

@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router';
+import Button from '../../components/Button';
 import styles from './NotFound.module.css';
 
 const NotFound = () => {
@@ -13,8 +14,8 @@ const NotFound = () => {
             <p>Talvez algo de errado tenha acontecido ou está 
                 página está em manutenção no momento!</p>
             <div>
-                <button onClick={()=> navigate(-1)}>Voltar</button>
-                <button onClick={()=> navigate('/')}>Ir para o início</button>
+                <Button onClick={()=> navigate(-1)}>Voltar</Button>
+                <Button onClick={()=> navigate('/')}>Ir para o início</Button>
             </div>
         </div>
     )

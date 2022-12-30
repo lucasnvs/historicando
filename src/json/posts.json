@@ -1,6 +1,10 @@
 [
     {
         "id": 1,
+        "author": {
+            "name": "Gabriel Umann",
+            "image": 0
+        },
         "theme": "Revolução Francesa",
         "title": "Assembleia dos Estados Gerais",
         "date": "1789 - 1793",
@@ -8,13 +12,21 @@
     },
     {
         "id": 2,
+        "author": {
+            "name": "Lucas Neves",
+            "image": 1
+        },
         "theme": "Revolução Francesa",
         "title": "Convenção Nacional",
         "date": "1793 - 1795",
-        "text": ""
+        "text": "Logo após a morte do principe de persia, essa epoca que marcou tanto se inicia um dos piores períodos da história francesa"
     },
     {
         "id": 3,
+        "author": {
+            "name": "Gabriel Umann",
+            "image": 0
+        },
         "theme": "Revolução Francesa",
         "title": "Diretório",
         "date": "1795 - 1799",

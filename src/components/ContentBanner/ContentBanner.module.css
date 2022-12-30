@@ -33,25 +33,10 @@
     position: relative;
     z-index: 2;
     color: #000;
+    margin-bottom: 25px;
 }
 .bannerContainer a {
     z-index: 1;
-}
-.bannerContainer a button {
-    z-index: 2;
-    background-color: #FFF;
-    border: 0;
-    padding: 10px 15px;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: 125ms linear;
-}
-.bannerContainer a button {
-    color: #000;
-    text-decoration: none;
-}
-.bannerContainer a button:hover {
-    color: rgb(169, 228, 243);
 }
 
 .locked {

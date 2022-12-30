@@ -1,6 +1,6 @@
 .welcomeContainer {
     min-height: 460px;
-    height: calc(100vh - 85px);
+    max-height: calc(100vh - 85px);
     position: relative;
     padding: 8%;
     display: flex;
@@ -19,14 +19,14 @@
     margin-bottom: 10px;
 }
 .welcomeContainer div p:nth-child(4) {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .welcomeContainer img {
     height: 460px;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
     .welcomeContainer img {
         display: none;
     }

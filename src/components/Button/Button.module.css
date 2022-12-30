@@ -1,0 +1,14 @@
+.Button {
+    padding: 15px 30px;
+    border-radius: 80px;
+    color: #FFF;
+    border: 0px solid #FFF;
+    background-color: aqua;
+    cursor: pointer;
+    transition: 145ms linear;
+    font-weight: 600;
+}
+.Button:hover {
+    color: aqua;
+    background-color: #FFF;
+}

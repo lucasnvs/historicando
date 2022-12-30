@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import Button from '../Button';
 import styles from './ContentBanner.module.css';
 import locked from './locked.png';
 
@@ -16,7 +17,7 @@ const ContentBanner = (props) => {
                 <h2>{props.title}</h2>
                 <p>{props.subtitle}</p>
                 <Link to={props.linkTo}>
-                    <button>Acessar Conteúdo</button>
+                    <Button>Acessar Conteúdo</Button>
                 </Link>
                 
         </div>

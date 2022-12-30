@@ -3,6 +3,7 @@ import ContentBanner from "../../components/ContentBanner";
 import themes from '../../json/themes.json';
 import Input from '../Input';
 import { useState } from 'react';
+import SearchNotFound from '../SearchNotFound';
 
 const ContentsArea = () => {
 
@@ -15,11 +16,12 @@ const ContentsArea = () => {
             placeholder='Oque você deseja ver hoje?'
             onChange={ event => {
                 const typedText = event.target.value;
-                const result = themes.filter( theme => theme.theme_title.toLowerCase().includes(typedText))
+                const result = themes.filter( theme => theme.theme_title.toLowerCase().includes(typedText.toLowerCase()))
                 setSearchedThemes(result);
+                console.log(searchedThemes)
             }} 
             />
-
+            {searchedThemes.length === 0 ? <SearchNotFound /> : ''}
             {searchedThemes.map( theme => (
                 <ContentBanner
                 key={theme.id}

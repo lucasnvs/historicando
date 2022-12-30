@@ -1,19 +1,70 @@
 .conteudoPost {
-    padding: 30px 8%;
+    padding: 25px 8%;
 }
 
 .conteudoPost h2 {
     font-size: 30px;
     margin-bottom: 14px;
+    text-align: left;
+}
+.bannerPrincipal {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
 }
 
-.conteudoPost .reference {
+.bannerPrincipal .banner {
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.74;
+}
+
+.bannerPrincipal h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.bannerPrincipal p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.bannerPrincipal span {
+    color: rgb(9, 163, 225);
+    font-weight: 600;
     font-size: 17px;
     margin-bottom: 10px;
 }
-.conteudoPost .reference span {
-    color: rgb(9, 163, 225);
-    font-weight: 600;
+
+.author {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: fit-content;
+    height: 100px;
+}
+
+.author p {
+    font-size: 20px;
+    font-weight: bold;
+    color:#000;
+}
+
+.author img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
 }
 
 .conteudoPost .text {
@@ -37,10 +88,6 @@
 }
 .conteudoPost .text p em {
     text-decoration: underline;
-}
-.conteudoPost .banner {
-    width: 56%;
-    border-radius: 8px;
 }
 
 @media (max-width: 850px ) {

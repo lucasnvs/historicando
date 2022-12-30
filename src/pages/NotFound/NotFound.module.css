@@ -27,17 +27,3 @@
     justify-content: space-between;
     gap: 100px;
 }
-
-.container404 div button {
-    padding: 15px 30px;
-    border-radius: 80px;
-    color: aqua;
-    border: 2px solid aqua;
-    background-color: #FFF;
-    cursor: pointer;
-    transition: 145ms linear;
-}
-.container404 div button:hover {
-    background-color: aqua;
-    color: #FFF;
-}

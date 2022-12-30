@@ -10,3 +10,15 @@
     text-align: center;
     margin-bottom: 20px;
 }
+
+@media (max-width: 850px ) {
+    .Input {
+        width: 60%;
+        font-size: 85%;
+    }
+}
+@media (max-width: 435px ) {
+    .Input {
+        font-size: 70%;
+    }
+}

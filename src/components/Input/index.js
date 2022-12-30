@@ -5,6 +5,7 @@ const Input = (props) => {
             <input className={styles.Input}
             placeholder={props.placeholder}
             onChange={props.onChange}
+            onBlur={props.onBlur}
             />   
     )
 }

@@ -1,0 +1,15 @@
+.SearchNotFound {
+    padding: 30px;
+    background-color: #b4c2d13f;
+}
+
+.SearchNotFound h2 {
+    margin-bottom: 35px;
+    color: #758CA3;
+}
+
+.img {
+    width: 50%;
+    max-width: 320px;
+    height: fit-content;
+}
