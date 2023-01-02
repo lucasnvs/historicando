@@ -9,6 +9,10 @@
     background-color: rgba(63, 207, 255, 0.457);
 }
 
+.welcomeContainer h1 span{
+    font-family: 'Merriweather', serif;
+}
+
 .welcomeContainer div h1 {
     font-size: 45px;
     margin-bottom: 20px;
@@ -19,7 +23,7 @@
     margin-bottom: 10px;
 }
 .welcomeContainer div p:nth-child(4) {
-    margin-top: 20px;
+    margin-top: 5%;
 }
 
 .welcomeContainer img {

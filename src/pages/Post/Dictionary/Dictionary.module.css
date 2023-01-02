@@ -1,0 +1,49 @@
+.Dictionary {
+    position: sticky;
+    top: 100px;
+    width: 26%;
+    height: 300px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.DictionaryHeader {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: rgba(63, 207, 255, 0.457);
+    border-radius: 16px 16px 0px 0px;
+    margin-bottom: 33px;
+}
+
+.DictionaryHeader:before {
+    border: 30px solid transparent;
+    border-right-color: rgba(63, 207, 255, 0.457);
+    content: "";
+    transform: rotate(-90deg);
+    bottom: -60px;
+    position: absolute;
+}
+
+.DictionaryHeader h2 {
+    font-weight: normal;
+    color: #000;
+}
+
+.DictionaryHeader span {
+    font-weight: bold;
+}
+
+.Dictionary h5 {
+    margin-left: 10px;
+    font-size: 16px;
+    font-style: oblique;
+    text-decoration:underline;
+}
+
+.Dictionary p {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #323232;
+}

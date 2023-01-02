@@ -2,10 +2,12 @@
     display: flex;
     gap: 5px;
     align-items: center;
+    font-family: 'Merriweather', serif;
 }
 
 .logoContainer p {
     font-size: 14px;
+    color: #313535;
     font-weight: bold;
 }
 .logoContainer img {

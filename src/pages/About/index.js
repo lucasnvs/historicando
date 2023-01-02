@@ -7,7 +7,7 @@ const About = () => {
         <div className={styles.aboutContainer}>
            <div>
                 <h2>Sobre nós</h2>
-                <p>Foi criado para um trabalho de História, onde buscamos trazer a história de uma maneira mais simples e compreensível para qualquer público que se interesse!</p>
+                <p>Este site foi criado para um trabalho de História, onde buscamos trazer a história de uma maneira mais simples e compreensível para qualquer público que se interesse!</p>
                 <p>Todos os materiais são de nossa autoria e caso for abordado conteúdos de terceiros estará referenciado logo ao final do Post.</p>
            </div>
         <div>
