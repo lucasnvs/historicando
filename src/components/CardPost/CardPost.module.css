@@ -2,9 +2,9 @@
     position: relative;
     width: 300px;
     height: 325px;
-    border-radius: 8px;
+    border-radius: 6px;
     box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.49);
-    transition: 50ms linear;
+    transition: 115ms linear;
     cursor: pointer;
     margin-top: 20px;
     background-color: #FFF;
@@ -25,7 +25,7 @@
     background-size: cover;
     position: relative;
     min-height: 50%;
-    border-radius: 8px 8px 0px 0px;
+    border-radius: 6px 6px 0px 0px;
 }
 
 .cardBody h3 {

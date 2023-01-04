@@ -1,6 +1,7 @@
 import PeopleCard from '../../components/PeopleCard';
 import styles from './About.module.css';
 import gabriel from '../../imgs/gabriel-umann.jpeg';
+import lucas from '../../imgs/lucas-neves.jpeg';
 
 const About = () => {
     return (
@@ -15,7 +16,7 @@ const About = () => {
             <PeopleCard 
                 name='Lucas Neves'
                 sub='Desenvolvedor e roteirista'
-                image={''}
+                image={lucas}
                 />
                 <br></br>
                 <PeopleCard 

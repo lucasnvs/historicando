@@ -1,5 +1,5 @@
 import styles from './Welcome.module.css';
-import people from './people.png';
+import people from '../../imgs/people.png';
 
 const Welcome = () => {
     return (

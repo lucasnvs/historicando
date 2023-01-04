@@ -1,54 +1,93 @@
 [
     {
         "id": 1,
-        "author": {
+        "author": [
+        {
             "name": "Gabriel Umann",
             "image": 0
-        },
+        }
+    ],
+        "dic": [
+            { "word": "tiozão", "text": "Figura de poder"},
+            { "word": "patrão", "text": "Senhor Feudal detentor das terras"},
+            { "word": "peões", "text": ""},
+            { "word": "engomadinhos", "text": ""},
+            { "word": "homens de Deus", "text": "Homens que faziam parte da organização da igreja como padres, bispos, papa."},
+            { "word": "povão", "text": "Formado pela maioria do povo, sem direitos, predominantemente pobre."},
+            { "word": "boyzinhos", "text": ""},
+            { "word": "mendigos", "text": ""},
+            { "word": "dos mais brabos", "text": ""},
+            { "word": "junção", "text": ""},
+            { "word": "sonegar impostos", "text": ""},
+            { "word": "puto/puto da cara", "text": ""},
+            { "word": "resenha", "text": ""},
+            { "word": "aleluia", "text": ""},
+            { "word": "deu bola", "text": ""},
+            { "word": "estadinho", "text": "Estado de pouca importância"},
+            { "word": "cagado de medo", "text": ""},
+            { "word": "nerfar", "text": "Enfraquecer, impor limites."},
+            { "word": "se cria a tal da", "text": ""},
+            { "word": "o brabo", "text": ""},
+            { "word": "fofoca", "text": ""},
+            { "word": "homi da roça", "text": ""},
+            { "word": "cidades grandes", "text": ""},
+            { "word": "loucurada", "text": ""},
+            { "word": "homem rico", "text": ""},
+            { "word": "mano", "text": "Homem"},
+            { "word": "mina", "text": "Mulher"},
+            { "word": "saíram da cachola", "text": ""},
+            { "word": "gringa/gringo", "text": "De fora do território nacional"},
+            { "word": "macetado", "text": "Destruído, massacrado, derrotado"},
+            { "word": "skins", "text": "Destruído, massacrado, derrotado"},
+            { "word": "vai pro lado que tá melhor", "text": ""},
+            { "word": "puxar briga", "text": ""},
+            { "word": "ir de f", "text": "morrer, falecer, sair do plano terrestre."},
+            { "word": "de arrasta pra cima", "text": "morrer, falecer, sair do plano terrestre."},
+            { "word": "vai de berço", "text": "morrer, falecer, sair do plano terrestre."}
+        ],
         "theme": "Revolução Francesa",
         "title": "Assembleia dos Estados Gerais",
         "date": "1789 - 1793",
-        "text": "Nessa época na França tinha um *tiozão* que comandava todo o país, esse era o rei, ele era o poder absoluto, em um regime chamado de monarquia absolutista. Também tinha o feudalismo, que era uma organização econômica, onde um *patrão* tinha algumas porções de terras, este pagava uns *peões* para cuidar e plantar na sua terra, só que ele pagava uma miséria *pros cara*, os *peões* mal conseguiam comer com o que ganhavam. \n\n A sociedade da frança era dividida em 3 Estados, no primeiro estavam os *engomadinhos* que eram 1% da população, no segundo estavam os *homens de Deus*, sendo 2% e o terceiro Estado era formado pelo *povão*, indo dos *boyzinhos* até os *mendigo*. \n\n Em 1788 a França é atingida por um inverno *dos mais brabos*, que provoca uma safra ruim, assim deixando os camponeses pobres e fazendo a população do 30 estado passar fome enquanto os *engomadinho* e os *homens de Deus* ostentavam suas riquezas. Para arrumar isso, o Rei Luís XVI faz uma *junção* chamada a Assembléia Dos Notáveis com o 10 e 20 Estado e nela fala que eles vão ter que parar de *sonegar impostos*, porém sua ideia é um fracasso, porque os dois primeiros estados não queriam perder a sua *vida boa*. Então o rei, *puto* com o resultado, resolve convocar a Assembléia dos Estados-Gerais, onde iriam chamar os 3 Estados. Essa *resenha* não era feita desde 1614. \n\n A Assembléia dos Estados-Gerais aconteceu no Palácio de Versalhes no dia  24 de janeiro de 1789,  e nela foram chamados 270 *engomadinho*, 291 *Aleluia* e 584 do 30  Estado, que eram somente *boyzinhos*. Se os votos fossem por cabeça o 30 Estado sempre venceria. Só não foi isso que aconteceu, na verdade o sistema de voto foi por Estado, e com isso, o terceiro Estado estaria sempre na minoria contra os dois primeiros Estados. Então o Terceiro Estado, indignado, tentou mudar o sistema para voto por cabeça, só que ninguém *deu bola*. \n\n *Puto da cara*, o 30 Estado se diz Assembléia Nacional, falando que eram 97% da população e não só um *Estadinho*. O rei, *cagado de medo*, tenta anular a Assembleia e encerra os trabalhos, porém o 30 Estado ignora ele e continua sua rebelião na sala de jogos, onde o terceiro Estado se nomeia Assembleia Constituinte e faz um juramento, com o objetivo criar uma governo para a França e *nerfar* o poder do Rei. Assim *se cria a tal da* Revolução Francesa.\n\n Luís XVI reagiu falando que “era o *brabo*, único e verdadeiro representante dos franceses, afirmando que ele iria ignorar todos os projetos da assembleia rebelde”. \n\n A *fofoca* dos feitos do terceiro estado se espalhou em toda a França, onde começaram a roubar casas e botar fogo em castelos, os *homi da roça* iniciaram uma rebelião com a intenção de serem 100% donos das terras que cultivavam e também de sonegar impostos feudais. Nas *cidades grandes*, os mais pobres do 30 Estado queriam melhores condições de vida e maior participação política. \n\n Com toda essa *locurada* por rebelião, os rebeldes vão em direção a Bastilha, que na época era uma fortaleza desativada, onde franceses usavam apenas para guardar armas e suprimentos e manter alguns presos. Chegando na Bastilha *os cara* invade e liberta os poucos presos que estavam lá, tomam posse das armas e destroem todo o bagulho. Essa é uma das partes mais importantes da revolução.\n\n Assim começa um período na França, chamado de Grande Medo, onde os rebeldes começaram a ir atrás dos engomadinhos, matando-os de formas extremamente violentas. Com medo os *homem rico*  começaram a fugir para países como Áustria e Prússia(atual Alemanha), que eram governos absolutistas. Com toda essa *loucura*, a Assembleia Nacional assume o poder, querendo acalmar a população e manter a ordem. Durante o regime da Assembleia Nacional eles: \n - acabaram com os direitos feudais \n - fizeram os *engomadinhos* pagar impostos \n - Criaram a Declaração dos Direitos dos Homens e do Cidadão, usando como base os pensamentos iluministas, como, liberdade de pensamento e opinião, o direito à propriedade individual, respeito a dignidade do cidadão, igualdade perante a lei, direito à rebelião, entre outros. \n\n Vale lembrar que esse último item citado valia apenas para os *manos* e não paras *minas*, assim a revolucionária, Olympe de Gouges escreve a Declaração dos Direitos da Mulher e da Cidadã, querendo igualdade entre os manos e as minas. Porém *geral ignorou* o projeto. Os *caras que tinham mais grana*, juntamente com o rei, buscam apoio da Áustria e da Prússia contra os rebeldes. Em 1791 o rei e sua família, com medo, tentam fugir para a Áustria, só que os revolucionários, que nada de burro tem, descobrem e escoltam o rei de volta para Paris. Em setembro de 1791 a Assembleia dos revolucionários criam a primeira Constituição Francesa querendo *nerfar* o poder do rei, assim tornando a França uma Monarquia Constitucional. O documento criava o estado de direito e separava os poderes, ideias que *saíram da cachola* do filósofo iluminista Montesquieu. Outras ideias propostas foram a de: \n- Que o clero teria que obedecer à autoridade civil \n - Do divórcio, algo que a igreja na época era totalmente contra.\n - Estabelecimento de cidadania \n - Pobres e mulheres não votariam. \n\n Depois de sua fuga ter dado errado, o rei Luís XVI com a ajuda de alguns engomadinhos, que já “tavam” na *gringa*, montam um ataque com os exércitos da Prússia e Áustria contra o seu povo, porém os revolucionários botam os cidadãos para lutar na batalha em defesa da pátria, em 1792 o exército *gringo* é *macetado*. Esta batalha ficou conhecida como Batalha de Valmy. Depois de ganharem, os rebeldes instalam a República na França e prendem o rei, acusado de traição à pátria. Com o objetivo de criar uma nova constituição republicana e não mais monárquica, os revolucionários criam a Convenção Nacional, e nesta convenção se criam três *skins* de rebeldes: \n - Girondinos, que seriam a atual direita da política Este eram os mais *ricos da banda*, não queriam mudar muito. \n - Jacobinos, que seriam a atual esquerda. Formados pelos *riquinhos* e pelos *metidos a rico*, queriam tacar *fogo na fogueira*, seguindo o que o povo queria(Maioria). \n - Planície, seriam *os tucanos*. A chamada *vai pro lado que tá melhor*, mudavam de posição de acordo com seus interesses. \n\n Vale lembrar que a Convenção Nacional inventou um calendário para eles que contaria os anos a partir da criação da República Francesa, sendo isso uma forma de *puxar briga* com a igreja. \n\n Os membros da Convenção levam o rei Luís XVI à julgamento, sendo defendido pelos girondinos enquanto os jacobinos queriam que ele *fosse de F*. Por fim, os jacobinos vencem e em janeiro de 1793 o rei é levado *de arrasta pra cima* por conspirar contra a liberdade e a segurança da França. Meses depois sua mulher, a Rainha Maria Antonieta também *vai de berço*."
+        "text": " ### Contextualizando \n\n Nessa época na França tinha um *tiozão* que comandava todo o país, esse era o rei, ele era o poder absoluto, em um regime chamado de monarquia absolutista. Também tinha o feudalismo, que era uma organização econômica, onde um *patrão* tinha algumas porções de terras, este pagava uns *peões* para cuidar e plantar na sua terra, só que ele pagava uma \"miséria pros cara\", os *peões* mal conseguiam comer com o que ganhavam. \n\n A sociedade da frança era dividida em 3 Estados, no primeiro estavam os *engomadinhos* que eram 1% da população, no segundo estavam os *homens de Deus*, sendo 2% e o terceiro Estado era formado pelo *povão*, indo dos *boyzinhos* até os *mendigo*. \n\n ### Início \n\n Em 1788 a França é atingida por um inverno *dos mais brabos*, que provoca uma safra ruim, assim deixando os camponeses pobres e fazendo a população do 3° estado passar fome enquanto os *engomadinhos* e os *homens de Deus* ostentavam suas riquezas. Para arrumar isso, o Rei Luís XVI faz uma *junção* chamada a Assembléia Dos Notáveis com o 1° e 2° Estado e nela fala que eles vão ter que parar de *sonegar impostos*, porém sua ideia é um fracasso, porque os dois primeiros estados não queriam perder a sua \"vida boa\". Então o rei, *puto* com o resultado, resolve convocar a Assembléia dos Estados-Gerais, onde iriam chamar os 3 Estados. Essa *resenha* não era feita desde 1614. \n\n A Assembléia dos Estados-Gerais aconteceu no Palácio de Versalhes no dia  24 de janeiro de 1789,  e nela foram chamados 270 *engomadinhos*, 291 *Aleluia* e 584 do 3°  Estado, que eram somente *boyzinhos*. Se os votos fossem por cabeça o 3° Estado sempre venceria. Só não foi isso que aconteceu, na verdade o sistema de voto foi por Estado, e com isso, o terceiro Estado estaria sempre na minoria contra os dois primeiros Estados. Então o Terceiro Estado, indignado, tentou mudar o sistema para voto por cabeça, só que ninguém *deu bola*. \n\n *Puto da cara*, o 3° Estado se diz Assembléia Nacional, falando que eram 97% da população e não só um *estadinho*. O rei, *cagado de medo*, tenta anular a Assembleia e encerra os trabalhos, porém o 3° Estado ignora ele e continua sua rebelião na sala de jogos, onde o terceiro Estado se nomeia Assembleia Constituinte e faz um juramento, com o objetivo criar uma governo para a França e *nerfar* o poder do Rei. Assim *se cria a tal da* Revolução Francesa.\n\n Luís XVI reagiu falando que “era *o brabo*, único e verdadeiro representante dos franceses, afirmando que ele iria ignorar todos os projetos da assembleia rebelde”. \n\n A *fofoca* dos feitos do terceiro estado se espalhou em toda a França, onde começaram a roubar casas e botar fogo em castelos, os *homi da roça* iniciaram uma rebelião com a intenção de serem 100% donos das terras que cultivavam e também de sonegar impostos feudais. Nas *cidades grandes*, os mais pobres do 3° Estado queriam melhores condições de vida e maior participação política. \n\n ### Queda da Bastilha \n\n Com toda essa *locurada* por rebelião, os rebeldes vão em direção a Bastilha, que na época era uma fortaleza desativada, onde franceses usavam apenas para guardar armas e suprimentos e manter alguns presos. Chegando na Bastilha \"os cara\" invade e liberta os poucos presos que estavam lá, tomam posse das armas e destroem todo o *bagulho*. Essa é uma das partes mais importantes da revolução. \n\n Assim começa um período na França, chamado de Grande Medo, onde os rebeldes começaram a ir atrás dos *engomadinhos*, matando-os de formas extremamente violentas. Com medo os *homem rico*  começaram a fugir para países como Áustria e Prússia(atual Alemanha), que eram governos absolutistas. Com toda essa *loucurada*, a Assembleia Nacional assume o poder, querendo acalmar a população e manter a ordem. Durante o regime da Assembleia Nacional eles: \n - acabaram com os direitos feudais \n - fizeram os *engomadinhos* pagar impostos \n - Criaram a Declaração dos Direitos dos Homens e do Cidadão, usando como base os pensamentos iluministas, como, liberdade de pensamento e opinião, o direito à propriedade individual, respeito a dignidade do cidadão, igualdade perante a lei, direito à rebelião, entre outros. \n\n Vale lembrar que esse último item citado valia apenas para os *manos* e não paras *minas*, assim a revolucionária, Olympe de Gouges escreve a Declaração dos Direitos da Mulher e da Cidadã, querendo igualdade entre os manos e as minas. Porém \"geral\" ignorou o projeto. Os *caras que tinham mais grana*, juntamente com o rei, buscam apoio da Áustria e da Prússia contra os rebeldes. Em 1791 o rei e sua família, com medo, tentam fugir para a Áustria, só que os revolucionários, que nada de burro tem, descobrem e escoltam o rei de volta para Paris. Em setembro de 1791 a Assembleia dos revolucionários criam a primeira Constituição Francesa querendo *nerfar* o poder do rei, assim tornando a França uma Monarquia Constitucional. O documento criava o estado de direito e separava os poderes, ideias que *saíram da cachola* do filósofo iluminista Montesquieu. Outras ideias propostas foram a de: \n- Que o clero teria que obedecer à autoridade civil \n - Do divórcio, algo que a igreja na época era totalmente contra.\n - Estabelecimento de cidadania \n - Pobres e mulheres não votariam. \n\n Depois de sua fuga ter dado errado, o rei Luís XVI com a ajuda de alguns *engomadinhos*, que já “tavam” na *gringa*, montam um ataque com os exércitos da Prússia e Áustria contra o seu povo, porém os revolucionários botam os cidadãos para lutar na batalha em defesa da pátria, em 1792 o exército *gringo* é *macetado*. Esta batalha ficou conhecida como Batalha de Valmy. Depois de ganharem, os rebeldes instalam a República na França e prendem o rei, acusado de traição à pátria. Com o objetivo de criar uma nova constituição republicana e não mais monárquica, os revolucionários criam a Convenção Nacional, e nesta convenção se criam três *skins* de rebeldes: \n - Girondinos, que seriam a atual direita da política. Este eram os mais *ricos da banda*, não queriam mudar muito. \n - Jacobinos, que seriam a atual esquerda. Formados pelos *riquinhos* e pelos *metidos a rico*, queriam *tacar fogo na fogueira*, seguindo o que o povo queria(maioria). \n - Planície, seriam *os tucanos*. A chamada *vai pro lado que tá melhor*, mudavam de posição de acordo com seus interesses. \n\n Vale lembrar que a Convenção Nacional inventou um calendário para eles que contaria os anos a partir da criação da República Francesa, sendo isso uma forma de *puxar briga* com a igreja. \n\n ### Morte de Luís XVI \n\n Os membros da Convenção levam o rei Luís XVI à julgamento, sendo defendido pelos girondinos enquanto os jacobinos queriam que ele *fosse de F*. Por fim, os jacobinos vencem e em janeiro de 1793 o rei é levado *de arrasta pra cima* por conspirar contra a liberdade e a segurança da França. Meses depois sua mulher, a Rainha Maria Antonieta também *vai de berço*."
     },
     {
         "id": 2,
-        "author": {
+        "author": [
+        {
             "name": "Lucas Neves",
             "image": 1
-        },
+        }
+    ],
+        "dic": [
+            { "word": "panelinhas da revolução", "text": "órgãos de defesa da Revolução Francesa"},
+            { "word": "papelada", "text": "constituição"},
+            { "word": "milicos", "text": "exército"},
+            { "word": "de arrasta pra cima", "text": "morrer, falecer, sair do plano terrestre."},
+            { "word": "", "text": ""}
+        ],
         "theme": "Revolução Francesa",
         "title": "Convenção Nacional",
         "date": "1793 - 1795",
-        "text": "Os jacobinos que estavam no poder, criaram órgãos de defesa da revolução, que
-eram responsáveis por controlar o exército e administração da frança, vigiavam, 
-prendiam e puniam os traidores da revolução.
-
-Um dos momentos mais radicais e violentos da Revolução Francesa que ficou
-conhecido como o Terror, foi quando Robespierre (contextualizar) torna-se 
-o líder da ditadura jacobina. Neste período ocorreram alterações nas leis:
-criando escolas públicas, abolindo a escravatura em suas colônias, e cobrando
-impostos aos mais ricos. Também foi estabelecida outra constituição
-para frança em 1793 que ampliou os direitos sociais.
-
-Mas não obviamente não foi considerado um período de Terror por essas atitudes
-e sim por em torno de 40 a 50 mil execuções de pessoas pelo Tribunal Revolucionário 
-por serem acusadas de serem inimigas do povo francês.
-Não importava seu poder, riqueza ou reconhecimento, qualquer pessoa considerada
-suspeita era executada em uma guilhotina.
-
-Com o excesso de extremisto e terror, Roberspierre perde seu apoio político, sendo
-preso e posteriormente executado por um complô entre girondinos, membros da planície 
-e jacobinos insatisfeitos.
-
-E assim se inicia uma nova fase da revolução francesa, o Diretório, criam outra constituição
-1795, que era muito mais moderado e menos radical que a anterior."
+        "text": "Os jacobinos que estavam no poder, criaram *panelinhas da revolução*, que eram responsáveis por controlar os *milicos* e administração da França. Vigiavam, prendiam e puniam os traidores da revolução. \n\n Um dos momentos mais radicais e violentos da Revolução Francesa que ficou conhecido como o Terror, foi quando Robespierre torna-se o líder da ditadura jacobina. Neste período ocorreram alterações nas leis: criando escolas públicas, abolindo a escravatura em suas colônias, e cobrando impostos aos mais ricos. Também foi estabelecida outra *papelada* para frança em 1793 que ampliou os direitos sociais.\n\n Mas obviamente não foi considerado um período de Terror por essas atitudes e sim por em torno de 40 a 50 mil execuções de pessoas pelo Tribunal Revolucionário por serem acusadas de serem inimigas do povo francês. Não importava seu poder, riqueza ou reconhecimento, qualquer pessoa considerada suspeita era executada em uma guilhotina. \n\n Com o excesso de extremisto e terror, Roberspierre perde seu apoio político, sendo preso e posteriormente indo *de arrasta pra cima* por um complô entre girondinos, membros da planície e jacobinos insatisfeitos. \n\n E assim se inicia uma nova fase da revolução francesa, o Diretório, criam outra *papelada* 1795, que era muito mais moderado e menos radical que a anterior."
     },
     {
         "id": 3,
-        "author": {
+        "author": [
+        {
             "name": "Gabriel Umann",
             "image": 0
         },
+        {
+            "name": "Lucas Neves",
+            "image": 1
+        }
+    ],
+        "dic": [
+            { "word": "ricaços", "text": ""},
+            { "word": "PM", "text": ""},
+            { "word": "nerfar", "text": ""},
+            { "word": "mídia", "text": ""}
+        ],
         "theme": "Revolução Francesa",
         "title": "Diretório",
         "date": "1795 - 1799",

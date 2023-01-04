@@ -15,7 +15,6 @@
     font-size: 17px;
 }
 .Button:hover {
-    padding: 20px 40px;
     color: aqua;
     background-color: #FFF;
 }

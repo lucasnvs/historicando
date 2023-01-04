@@ -2,22 +2,29 @@
     {
         "id": 1,
         "theme_title": "Revolução Francesa",
-        "subtitle": "Período Histórico marcado por grandes revoltas e mudança política na organização francesa",
+        "subtitle": "Período Histórico marcado por grandes revoltas e mudança política na organização francesa.",
         "image_name": "revolucao-francesa.png",
         "locked": false
     },
     {
         "id": 2,
         "theme_title": "Revolução Industrial",
-        "subtitle": "Período Histórico marcado por grandes revoltas e mudança política na organização francesa",
+        "subtitle": "Foi marcada principalmente pelo advento da máquina à vapor na indústria têxtil e locomotiva, nesse período a produção deixou de ser artesanal e passou a ser manufaturada e a produção passou a ser em larga escala.",
         "image_name": "revolucao-industrial.jpg",
         "locked": true
     },
     {
         "id": 3,
         "theme_title": "Segunda Guerra Mundial",
-        "subtitle": "Período Histórico marcado por grandes revoltas e mudança política na organização francesa",
+        "subtitle": "Conflito de escala global marcado por terror, mortes em massa, e uso de bombas atômicas",
         "image_name": "segunda-guerra-mundial.png",
+        "locked": true
+    },
+    {
+        "id": 4,
+        "theme_title": "Independência do Brasil",
+        "subtitle": "Processo histórico de separação entre o então Reino do Brasil e Portugal, colocando em violenta oposição as duas partes",
+        "image_name": "independencia-brasil.jpg",
         "locked": true
     }
 ]

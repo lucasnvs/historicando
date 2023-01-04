@@ -6,9 +6,11 @@ import { ReactMarkdown } from 'react-markdown/lib/react-markdown';
 import NotFound from '../NotFound';
 import Dictionary from './Dictionary';
 
-import gabriel from '../../imgs/gabriel-umann.jpeg'
+import lucas from '../../imgs/lucas-neves.jpeg';
+import gabriel from '../../imgs/gabriel-umann.jpeg';    
+import { Link } from 'react-router-dom';
 
-const authors = [gabriel, ''];
+const authors = [gabriel, lucas];
 
 const Post = () => {
     const params = useParams();
@@ -27,11 +29,20 @@ const Post = () => {
                     {post.title}
                 </h2>
                 <p>{post.date}</p>
-                <div className={styles.author}>
-                    <img src={authors[post.author.image]} alt={`Foto do autor do texto ${post.author.name}`} />
-                    <p>{post.author.name}</p>
+                <div className={styles.allAuthor}>
+                    {post.author.map( author => (
+                    <div className={styles.author}>
+                        <img src={authors[author.image]} alt={`Foto do autor do texto ${author.name}`} />
+                        <p>{author.name}</p>
+                    </div>
+                    ))}
+
                 </div>
-                    <span>{post.theme}</span>
+
+                <Link
+                    to='/article'
+                    className={styles.themeLink}>{post.theme}
+                </Link>
                 <img
                     className={styles.banner}
                     src={`/assets/posts/${post.id}/main.jpg`}
@@ -41,21 +52,24 @@ const Post = () => {
             <section className={styles.conteudoPost}>
                 <div className={styles.text}>
                     <ReactMarkdown
-                    linkTarget={{ link: props => <a rel="noreferrer" href={props.href} target="_blank">{props.children}</a>}}
+                        linkTarget={{ link: props => <a rel="noreferrer" href={props.href} target="_blank">{props.children}</a> }}
                     >
                         {post.text}
                     </ReactMarkdown>
                 </div>
-                <Dictionary />
+                <Dictionary data={post.dic}/>
             </section>
-            <h2>Mais conteúdos sobre Revolução Francesa</h2>
-            <div style={{ width: 'fit-content', display: 'flex', flexWrap: 'wrap', gap: '15px', justifyContent: 'center' }}>
+            <div className={styles.relatedContainer}>
+                <h2>Mais conteúdos sobre Revolução Francesa</h2>
+                <div className={styles.related}>
                     {posts.filter(post => post.id !== Number(params.id)).map(post => (
                         <CardPost
                             key={post.id}
                             props={post}
                         />))}
+                </div>
             </div>
+
         </>
     )
 }

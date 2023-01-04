@@ -1,8 +1,8 @@
 .aboutContainer {
-    height: 100%;
-    box-sizing: border-box;
-    padding: 40px 5%;
     display: flex;
+    padding: 30px 5%;
+    min-height: 100%;
+    height: fit-content;
     flex-direction: row;
     justify-content: space-between;
     align-items: top;

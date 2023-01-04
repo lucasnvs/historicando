@@ -27,3 +27,17 @@ You may also see any lint errors in the console.
 > ```
 > npm install react-markdown
 > ```
+
+transformar meu texto em cria
+melhorar as palavras de mano
+e descrever os termos
+
+add search no dicionario
+
+add referencias em baixo
+
+subtitulos no texto
+
+card de personagens do texto // robespierre, napoleão
+
+melhorar visual do: about e do article

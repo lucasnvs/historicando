@@ -1,9 +1,11 @@
 .Dictionary {
     position: sticky;
     top: 100px;
-    width: 26%;
-    height: 300px;
-    border-radius: 16px 16px 0px 0px;
+    min-width: 300px;
+    width: fit-content;
+    height: calc(80vh);
+    border-radius: 16px 16px 16px 16px;
+    padding: 0px 0px 10px 0px;
 }
 
 .DictionaryHeader {
@@ -35,14 +37,20 @@
     font-weight: bold;
 }
 
-.Dictionary h5 {
+.Dictionary div:nth-child(2) {
+    max-height: calc(100% - 120px);
+    overflow-y: scroll;
+    background-color: #FFF;
+}
+
+.Dictionary div:nth-child(2) h5 {
     margin-left: 13px;
     font-size: 16px;
     font-style: oblique;
     color: #1ba0b7;
 }
 
-.Dictionary p {
+.Dictionary div:nth-child(2) p {
     margin-left: 13px;
     font-size: 14px;
     color: #323232;
