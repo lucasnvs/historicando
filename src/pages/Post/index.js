@@ -40,7 +40,9 @@ const Post = () => {
             </div>
             <section className={styles.conteudoPost}>
                 <div className={styles.text}>
-                    <ReactMarkdown>
+                    <ReactMarkdown
+                    linkTarget={{ link: props => <a rel="noreferrer" href={props.href} target="_blank">{props.children}</a>}}
+                    >
                         {post.text}
                     </ReactMarkdown>
                 </div>

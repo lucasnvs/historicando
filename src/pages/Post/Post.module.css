@@ -83,7 +83,7 @@
 }
 
 .conteudoPost .text {
-    font-size: 22px;
+    font-size: 19px;
     max-width: 64%;
     width: fit-content;
     padding: 25px 0px;
@@ -93,6 +93,7 @@
 }
 .conteudoPost .text ul {
     margin-left: 40px;
+    margin-bottom: 24px;
 }
 .conteudoPost .text ul li {
     list-style: disc;
@@ -100,8 +101,17 @@
 
 .conteudoPost .text p {
     margin-bottom: 24px;
+    color: #454949;
 }
-.conteudoPost .text p em {
+.conteudoPost .text p em,
+.conteudoPost .text li em{
+    font-style: oblique;
+    font-weight: bold;
+    color: #1ba0b7;
+}
+
+.conteudoPost .text a {
+    color: blue;
     text-decoration: underline;
 }
 
