@@ -59,7 +59,7 @@ const Post = () => {
                     <h1>Referências:</h1>
                     <ul>
                     {post.ref.map( item => (
-                        <li><a rel="noreferrer" href={item.link} target='_blank'>{item.link}</a></li>
+                        <li><a rel="noreferrer" href={item.link} target='_blank'>{item.name}</a></li>
                     ))}
                     </ul>
                 </div>

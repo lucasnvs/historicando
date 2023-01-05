@@ -10,7 +10,6 @@ const Article = () => {
                 <h2>Isso é oque temos disponível para você</h2>
             </section>
             <section className={styles.content}>
-                <h2>Do início ao final:</h2>
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '15px', justifyContent: 'center'}}>
                     {posts.map( post => (
                         <CardPost
