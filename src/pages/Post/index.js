@@ -56,6 +56,12 @@ const Post = () => {
                     >
                         {post.text}
                     </ReactMarkdown>
+                    <h1>Referências:</h1>
+                    <ul>
+                    {post.ref.map( item => (
+                        <li><a rel="noreferrer" href={item.link} target='_blank'>{item.link}</a></li>
+                    ))}
+                    </ul>
                 </div>
                 <Dictionary data={post.dic}/>
             </section>
