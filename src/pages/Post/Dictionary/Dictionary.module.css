@@ -2,9 +2,8 @@
     position: sticky;
     top: 100px;
     min-width: 300px;
-    width: fit-content;
-    height: fit-content;
-    max-height: 650px;
+    width: 50%;
+    max-height: 580px;
     border-radius: 16px 16px 16px 16px;
     padding: 0px 0px 10px 0px;
 }
@@ -53,7 +52,7 @@
 .Dictionary div:nth-child(2) {
     position: relative;
     height: calc(100% - 120px);
-    max-height: 550px;
+    max-height: 480px;
     overflow-y: scroll;
 }
 
@@ -69,4 +68,10 @@
     font-size: 14px;
     color: #323232;
     margin-bottom: 7px;
+}
+
+@media (max-width: 850px) {
+    .Dictionary {
+        width: 80%;
+    }
 }
