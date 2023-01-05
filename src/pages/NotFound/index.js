@@ -16,11 +16,13 @@ const NotFound = () => {
                 <p>Talvez algo de errado tenha acontecido ou está 
                     página está em manutenção no momento!</p>
                 <div>
-                <Button width='190px' onClick={()=> navigate(-1)}>Voltar</Button>
-                <Button width='190px' onClick={()=> navigate('/')}>Ir para o início</Button>
+                <Button width='100%' onClick={()=> navigate(-1)}>Voltar</Button>
+                <Button width='100%' onClick={()=> navigate('/')}>Ir para o início</Button>
                 </div>
             </div>
+            <div>
             <img src={people} alt='pessoa estudando' />
+            </div>
         </div>
     )
 }

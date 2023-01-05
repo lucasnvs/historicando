@@ -3,7 +3,8 @@
     top: 100px;
     min-width: 300px;
     width: fit-content;
-    height: calc(80vh);
+    height: fit-content;
+    max-height: 650px;
     border-radius: 16px 16px 16px 16px;
     padding: 0px 0px 10px 0px;
 }
@@ -28,6 +29,18 @@
     position: absolute;
 }
 
+.DictionaryHeader input {
+    position: absolute;
+    width: 38%;
+    font-size: 80%;
+    border-radius: 6px;
+    outline: none;
+    padding: 3px;
+    border: 1px solid rgba(63, 207, 255, 0.457);
+    left: 10px;
+    bottom: -28px;
+}
+
 .DictionaryHeader h2 {
     font-weight: normal;
     color: #000;
@@ -38,9 +51,10 @@
 }
 
 .Dictionary div:nth-child(2) {
-    max-height: calc(100% - 120px);
+    position: relative;
+    height: calc(100% - 120px);
+    max-height: 550px;
     overflow-y: scroll;
-    background-color: #FFF;
 }
 
 .Dictionary div:nth-child(2) h5 {

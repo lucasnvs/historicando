@@ -15,7 +15,6 @@ const Article = () => {
                         <CardPost
                         key={post.id}
                         props={post}
-                        sizePX={420}
                         border={2}
                     />
                     ))}
@@ -25,5 +24,5 @@ const Article = () => {
         </div>
     )
 }
-
+    
 export default Article;

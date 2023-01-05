@@ -1,7 +1,7 @@
 .cardBody {
     position: relative;
-    width: 300px;
-    height: 325px;
+    width: 420px;
+    height: 420px;
     border-radius: 6px;
     box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.49);
     transition: 115ms linear;
@@ -46,3 +46,14 @@
     -webkit-box-orient: vertical; 
 }
 
+
+@media (max-width: 550px) {
+    .link {
+        display: flex;
+        width: 90%;
+        align-items: center;
+    }
+    .link .cardBody {
+        width: 100%;
+    }
+}

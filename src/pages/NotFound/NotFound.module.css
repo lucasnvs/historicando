@@ -3,11 +3,12 @@
     min-height: 100%;
     height: fit-content;
     display: flex;
-    background-color: rgb(219, 219, 219);
+    align-items: center;
+    background-color: rgb(242, 242, 242);
 }
 
 .container404 img {
-    max-height: 100vh;
+    width: 100%;
 }
 .container404 p {
     text-align: center;
@@ -21,9 +22,13 @@
     font-size: 30px;
 }
 
+.container404 div:nth-child(2) {
+    width: 50%;
+}
+
 .container404 div:nth-child(1) {
     width: 50%;
-    height: 100%;
+    height: calc(100vh - 85px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,6 +43,7 @@
 
 .container404 div:nth-child(1) div {
     margin-top: 25px;
+    min-width: 50%;
     display: flex;
     width: max-content;
     gap: 10px;
@@ -52,6 +58,9 @@
         display: none;
     }
 
+    .container404 div:nth-child(2) {
+        display: none;
+    }
     .container404 div:nth-child(1) {
         width: 100%;
     }

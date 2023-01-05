@@ -4,7 +4,7 @@ import styles from './CardPost.module.css';
 const CardPost = ({props, sizePX, border}) => {
 
     return (
-        <Link to={`/post/${props.id}`}>
+        <Link className={styles.link}to={`/post/${props.id}`}>
             <div className={styles.cardBody} style={{ borderRadius: border, width: sizePX, height: sizePX}}>
                 <div style={{ backgroundImage: `url('/assets/posts/${props.id}/main.jpg')`, borderTopLeftRadius: border, borderTopRightRadius: border, borderBottomRightRadius: 0, borderBottomLeftRadius: 0}}>
                 </div>

@@ -1,5 +1,7 @@
 .conteudoArticle {
-    background-image: linear-gradient(to bottom, rgba(216, 38, 38, 0.8) 25%, white, rgba(40, 40, 196, 0.9));
+    min-height: calc(100vh - 85px);
+    height: fit-content;
+    background-image: linear-gradient(to bottom, rgba(216, 38, 38, 0.8) 23%, white, rgba(40, 40, 196, 0.9));
 }
 
 .conteudoArticle section:nth-child(1) {
@@ -12,9 +14,11 @@
 }
 
 .conteudoArticle section:nth-child(1) h1 {
+    text-align: center;
     font-size: 43px;
 }
 .conteudoArticle section:nth-child(1) h2 {
+    text-align: center;
     font-size: 33px;
 }
 .conteudoArticle section:nth-child(1) h1,
@@ -28,4 +32,16 @@
 }
 .content h2{
     font-size: 32px;
+}
+
+
+@media (max-width: 550px) {
+
+    .conteudoArticle section:nth-child(1) h1 {
+        font-size: 32px;
+    }
+
+    .conteudoArticle section:nth-child(1) h2 {
+        font-size: 23px;
+    }
 }

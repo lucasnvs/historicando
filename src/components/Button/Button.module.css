@@ -31,3 +31,9 @@
     opacity: 1;
     display: block;
 }
+
+@media (max-width: 400px) {
+    .Button {
+        width: 130px;
+    }
+}

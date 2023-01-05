@@ -31,7 +31,7 @@ const Post = () => {
                 <p>{post.date}</p>
                 <div className={styles.allAuthor}>
                     {post.author.map( author => (
-                    <div className={styles.author}>
+                    <div key={author.name} className={styles.author}>
                         <img src={authors[author.image]} alt={`Foto do autor do texto ${author.name}`} />
                         <p>{author.name}</p>
                     </div>
@@ -59,7 +59,7 @@ const Post = () => {
                     <h1>Referências:</h1>
                     <ul>
                     {post.ref.map( item => (
-                        <li><a rel="noreferrer" href={item.link} target='_blank'>{item.name}</a></li>
+                        <li key={item.name}><a rel="noreferrer" href={item.link} target='_blank'>{item.name}</a></li>
                     ))}
                     </ul>
                 </div>
@@ -72,6 +72,7 @@ const Post = () => {
                         <CardPost
                             key={post.id}
                             props={post}
+                            sizePX={320}
                         />))}
                 </div>
             </div>
