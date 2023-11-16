@@ -1,20 +1,25 @@
-# Getting Started with Create React App
+# Historicando
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição
+Esse projeto foi um projeto simples de mais ou menos duas semanas do zero ao deploy. E foi feito enquanto eu estudava desenvolvimento Front-End como um trabalho para uma aula de história do meu cólegio, ainda existem pendências técnicas no projeto, que talvez nunca serão resolvidas.
 
-## Available Scripts
+## Deploy na vercel
 
-In the project directory, you can run:
+Clicando logo abaixo você pode ver como ficou o deploy pela vercel.
+- [https://historicando.vercel.app](https://historicando.vercel.app)
+
+## Desenvolvimento
+Esse projeto foi iniciado com [Create React App](https://github.com/facebook/create-react-app).
+
+No diretório do projeto você pode rodar:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Roda o código no modo de desenvolvimento.\
+Abra [http://localhost:3000](http://localhost:3000) para ver no navegador.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-> ## `Para baixar as dependências necessárias`
+## Dependências
+> Para baixar as dependências necessárias
 >```
 > npm install react
 >```
@@ -27,10 +32,3 @@ You may also see any lint errors in the console.
 > ```
 > npm install react-markdown
 > ```
-
-
-subtitulos no texto
-
-card de personagens do texto // robespierre, napoleão
-
-melhorar visual do: about e do article
