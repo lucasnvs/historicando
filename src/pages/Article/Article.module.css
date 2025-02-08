@@ -1,47 +1,27 @@
-.conteudoArticle {
+.ArticleContent {
     min-height: calc(100vh - 85px);
+    padding: 40px 5%;
     height: fit-content;
-    background-image: linear-gradient(to bottom, rgba(216, 38, 38, 0.8) 23%, white, rgba(40, 40, 196, 0.9));
 }
 
-.conteudoArticle section:nth-child(1) {
+.Heading {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 250px;
-    color: #FFF;
+    align-items: left;
+    justify-content: left;
+    color: #000;
+    margin-bottom: 20px;
+}
+.Heading h1 {
+    text-align: left;
+    font-size: 2.2rem;
+}
+.Heading h2 {
+    text-align: left;
+    font-size: 1.6rem;
 }
 
-.conteudoArticle section:nth-child(1) h1 {
-    text-align: center;
-    font-size: 43px;
-}
-.conteudoArticle section:nth-child(1) h2 {
-    text-align: center;
-    font-size: 33px;
-}
-.conteudoArticle section:nth-child(1) h1,
-.conteudoArticle section:nth-child(1) h2 {
-    width: fit-content;
-    margin-bottom: 10px;
-}
-
-.content {
-    padding: 20px 0px;
-}
-.content h2{
-    font-size: 32px;
-}
-
-
-@media (max-width: 550px) {
-
-    .conteudoArticle section:nth-child(1) h1 {
-        font-size: 32px;
-    }
-
-    .conteudoArticle section:nth-child(1) h2 {
-        font-size: 23px;
-    }
+.PostList {
+    display: flex;
+    gap: 10px
 }

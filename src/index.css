@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --color-detail: #FF8F00;
+}
+
 #root {
   padding: 85px 0px 0px 0px;
   box-sizing: border-box;

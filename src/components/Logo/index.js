@@ -5,7 +5,7 @@ const Logo = () => {
     return (
         <div className={styles.logoContainer}>
             <img src={logo} alt='Logo do Historicando' />
-            <p>Historicando.com</p>
+            <p>Historicando</p>
         </div>
     )
 }

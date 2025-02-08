@@ -48,7 +48,7 @@
     width: fit-content;
     height: fit-content;
     text-align: center;
-    background-color: #3ff63fd8;
+    background-color: var(--color-detail);
     color: #FFF;
     padding: 5px 20px;
     border-radius: 70px;

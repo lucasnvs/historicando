@@ -7,7 +7,7 @@
     padding: 20px 20px;
     background-color: #FFF;
     box-shadow: 4px 5px 10px 1px rgba(0, 0, 0, 0.381);
-    border-left: 10px solid rgba(88, 236, 88, 0.711);
+    border-left: 10px solid var(--color-detail);
 }
 
 .PeopleCard h3 {

@@ -7,12 +7,13 @@ import instagram from './IG.svg';
 const Footer = () => {
     return (
         <footer className={styles.footer}>
-            <Logo />
-            <div className={styles.mid}>
-                <p>Empowered by Lucas Neves and Gabriel Umann</p>
-                <p>©2022 por Historicando.com</p>
+            <div className={styles.Container}>
+                <p><b>©2025 por Historicando.com</b></p>
             </div>
-            <div className={styles.socialmedia}>
+            <div className={styles.Container}>
+                <Logo />
+            </div>
+            <div className={styles.Container}>
                 <img src={facebook} alt='Logo do Facebook'/>
                 <img src={twitter} alt='Logo do Twitter'/>
                 <img src={instagram} alt='Logo do Instagram'/>

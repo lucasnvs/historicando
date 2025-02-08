@@ -5,7 +5,9 @@ const Button = (props) => {
     return (
         <button className={styles.Button} style={{ width: props.width }} onClick={props.onClick}>
             {props.children}
-            <Arrow className={styles.arrow} />
+            <span className={styles.arrow}>
+                <Arrow className={styles.icon} />
+            </span>
         </button>
     )
 }

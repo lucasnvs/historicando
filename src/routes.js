@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import ScrollToTop from './components/ScrollToTop';
 
 import LandingPage from './pages/LandingPage';
@@ -11,7 +12,7 @@ import NotFound from './pages/NotFound';
 function App() {
   return (
     <BrowserRouter>
-    <ScrollToTop />
+      <ScrollToTop />
       <Header />
       <Routes>
         <Route path='/' element={<LandingPage />} />
@@ -21,9 +22,8 @@ function App() {
 
         <Route path="*" element={<NotFound />} />
       </Routes>
-      
+      <Footer />
     </BrowserRouter>
-
   )
 }
 

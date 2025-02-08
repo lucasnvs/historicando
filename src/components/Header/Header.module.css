@@ -3,7 +3,7 @@
     height: 85px;
     position: fixed;
     top: 0;
-    padding: 10px 20px;
+    padding: 0px 20px;
     background-color: #FFF;
     z-index: 4;
     display: flex;
@@ -16,7 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 10px;
     height: 100%;
 }
 .header ul li{
@@ -30,6 +30,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 400;
+    padding: 0 14px;
     cursor: pointer;
     color: #000;
     transition: 115ms linear;
@@ -37,10 +39,10 @@
     height: 100%;
 }
 .header .link:hover {
-    color: rgba(63, 207, 255, 0.457);
+    color: var(--color-detail);
 }
 
 .header .linkMarked {
-    color: rgba(63, 207, 255, 0.457);
-    border-bottom: 1px solid rgba(63, 207, 255, 0.457);
+    color: var(--color-detail);
+    border-bottom: 2px solid var(--color-detail);
 }

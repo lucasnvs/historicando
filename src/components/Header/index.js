@@ -15,14 +15,14 @@ const Header = () => {
                 ${styles.link}
                 ${local.pathname === '/' ? styles.linkMarked : ''}
                 `}
-                to='/'>
+                    to='/'>
                     Início
                 </Link></li>
                 <li><Link className={`
                 ${styles.link}
                 ${local.pathname === '/about' ? styles.linkMarked : ''}
                 `}
-                to='/about'>
+                    to='/about'>
                     Sobre
                 </Link></li>
             </ul>

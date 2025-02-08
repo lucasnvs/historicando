@@ -7,7 +7,7 @@ import NotFound from '../NotFound';
 import Dictionary from './Dictionary';
 
 import lucas from '../../imgs/lucas-neves.jpeg';
-import gabriel from '../../imgs/gabriel-umann.jpeg';    
+import gabriel from '../../imgs/gabriel-umann.jpeg';
 import { Link } from 'react-router-dom';
 
 const authors = [gabriel, lucas];
@@ -30,11 +30,11 @@ const Post = () => {
                 </h2>
                 <p>{post.date}</p>
                 <div className={styles.allAuthor}>
-                    {post.author.map( author => (
-                    <div key={author.name} className={styles.author}>
-                        <img src={authors[author.image]} alt={`Foto do autor do texto ${author.name}`} />
-                        <p>{author.name}</p>
-                    </div>
+                    {post.author.map(author => (
+                        <div key={author.name} className={styles.author}>
+                            <img src={authors[author.image]} alt={`Foto do autor do texto ${author.name}`} />
+                            <p>{author.name}</p>
+                        </div>
                     ))}
 
                 </div>
@@ -58,12 +58,12 @@ const Post = () => {
                     </ReactMarkdown>
                     <h1>Referências:</h1>
                     <ul>
-                    {post.ref.map( item => (
-                        <li key={item.name}><a rel="noreferrer" href={item.link} target='_blank'>{item.name}</a></li>
-                    ))}
+                        {post.ref.map(item => (
+                            <li key={item.name}><a rel="noreferrer" href={item.link} target='_blank'>{item.name}</a></li>
+                        ))}
                     </ul>
                 </div>
-                <Dictionary data={post.dic}/>
+                <Dictionary data={post.dic} />
             </section>
             <div className={styles.relatedContainer}>
                 <h2>Mais conteúdos sobre Revolução Francesa</h2>
